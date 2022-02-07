@@ -25,46 +25,32 @@ body {
 }
 /* Navbar */
 
-/* img produk */
+/* keranjang */
 .row-produk {
 	background-color: #fff;
 	margin: 0;
 	padding: 5px;
 	padding-top: 16px;
 }
-/* img produk */
+/* keranjang */
 
-/* line-name */
-.line-name {
-	border-bottom: 2px solid #2d2d2d;
-	margin-top: 10px;
-	margin-bottom: 25px;
+/* gambar */
+.img-keranjang {
+	width: 70px;
 }
-/* line-name */
+/* gambar */
 
-/* button shopping-cart */
-.btn-custom {
-	padding: 15px;
-	font-size: 14px;
+/* th-header */
+.th-header {
+	padding-top: 20px !important;
+	padding-bottom: 20px !important;
 }
-/* button shopping-cart */
+/* th-header */
 
-/* profile-size 
-.profile-size {
-	width: 95px;
-	height: 100px;
+/* table checkout */
+@media only screen and (min-width: 768px) {
+	#table-checkout {
+		width: 40%;
+	}
 }
-profile-size */
-
-/* deskripsi/review */
-.review-img {
-	width: 50px;
-}
-.review-name {
-	font-size: 16px;
-	margin-bottom: 5px;
-}
-.review-desk {
-	font-size: 14px;
-}
-/* deskripsi/review */
+/* table checkout */
